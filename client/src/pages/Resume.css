@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #6c757d;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-header h1 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.resume-contact {
+  margin-bottom: 2rem;
+}
+
+.resume-contact p {
+  margin: 0;
+}
+
+.resume-contact p strong {
+  margin-right: 0.5rem;
+}
+
+.resume-section {
+  margin-bottom: 2rem;
+}
+
+.resume-section h2 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.resume-section ul {
+  padding: 0;
+  margin: 0;
+}
+
+.resume-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.download-button {
+  text-align: center;
+}
+
+.download-button button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+strong {
+  color: black;
+}
+
+.para {
+  line-height: 0.5rem;
+}

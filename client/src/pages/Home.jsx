@@ -21,16 +21,6 @@ const Home = () => {
   });
   const navigate = useNavigate();
 
-  const isLoggedIn = () => {
-    if (!username) return false;
-    else return true;
-  };
-
-  if (!isLoggedIn()) {
-    navigate("/");
-    return null;
-  }
-
   async function handleSubmit(e) {
     e.preventDefault();
 
